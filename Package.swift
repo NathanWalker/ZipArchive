@@ -22,6 +22,7 @@ let package = Package(
             path: "SSZipArchive",
             resources: [
                 .process("Supporting Files/PrivacyInfo.xcprivacy")],
+            publicHeadersPath: ".",
             cSettings: [
                 .define("HAVE_ARC4RANDOM_BUF"),
                 .define("HAVE_ICONV"),
